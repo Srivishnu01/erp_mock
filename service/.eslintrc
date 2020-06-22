@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "indent": "off",
+    "prefer-destructuring": "off",
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 130,
+        "comments": 130,
+        "ignoreTrailingComments": true,
+        "ignoreComments": true
+      }
+    ],
+    "import/newline-after-import": "off",
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+    "no-underscore-dangle": "off",
+    "prefer-const": "off",
+    "no-tabs": "off",
+    "arrow-body-style": "off"
+  }
+}

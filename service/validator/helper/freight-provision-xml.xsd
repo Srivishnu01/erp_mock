@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.sap.com/abapxml" xmlns:asx="http://www.sap.com/abapxml">
+  <xs:element name="abap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="asx:values"/>
+      </xs:sequence>
+      <xs:attribute name="version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="values">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TAB" form="unqualified">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="unbounded" name="item" form="unqualified">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="BKTXT" form="unqualified" type="xs:string"/>
+                    <xs:element name="SGTXT" form="unqualified" type="xs:string"/>
+                    <xs:element name="XBLNR" form="unqualified" type="xs:string"/>
+                    <xs:element name="DMBTR" form="unqualified" type="xs:string"/>
+                    <xs:element name="MATNR" form="unqualified" type="xs:string"/>
+                    <xs:element name="ZCONSIGNEE" form="unqualified" type="xs:string"/>
+                    <xs:element name="ZDMBTR" form="unqualified" type="xs:decimal"/>
+                   </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,23 @@
+{
+    "transporter_code": "0000602801",
+    "transporter_name": "SREE SAMYUKTHA LOGISTICS PVT LTD",
+    "indent_number": "BRT-CH38-M-784",
+    "total_indent_value": 100,
+    "material": [
+      {
+        "material_code": "000000000000090159",
+        "consignee_code": "0000006045",
+        "total_freight_provision": 33.34
+      },
+      {
+        "material_code": "000000000000090168",
+        "consignee_code": "0000006045",
+        "total_freight_provision": 33.33
+      },
+      {
+        "material_code": "000000000000090168",
+        "consignee_code": "0000006045",
+        "total_freight_provision": 33.33
+      }
+    ]
+  }

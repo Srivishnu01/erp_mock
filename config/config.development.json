@@ -1,0 +1,15 @@
+{
+  "environment": "development",
+  "service": {
+    "port": 9030,
+    "url": "mongodb://localhost:27017/db_pando_staging",
+    "poolSize": "1",
+    "database": ""
+  },
+  "loggly" :{
+    "isEnabled":false,
+    "domain": "gopando",
+    "token": "test",
+    "tag": "dev"
+  }
+}

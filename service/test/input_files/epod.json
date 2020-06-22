@@ -1,0 +1,46 @@
+{
+  "transporter_code": "940042",
+  "transporter_name": "Mint Logistics",
+  "indent_no": "OEL-9027-O-78",
+  "vehicle_type": "FTL",
+  "vehicle_name": "KL 07 CN 2091",
+  "vehicle_description": "TRAC",
+  "truck_in": "2020/06/08 10:48",
+  "truck_out": "2020/06/08 11:40",
+  "consignees": [
+    {
+      "ship_to": "8109377",
+      "sold_to": "8109377",
+      "expected_date": "2020/06/09 11:40",
+      "reach_date": "2020/06/09 11:40",
+      "release_date": "2020/06/09 11:40",
+      "lr_uploaded": "No",
+      "materials": [
+        {
+        	
+        	"material_code":"sa",
+          "material_invoice_number": "1120100203",
+          "delivery_number": "8010452936",
+          "no_of_shortage": 0,
+          "no_of_leakage": 0,
+          "no_of_excess": 0,
+          "no_of_damage": 0,
+          "no_of_carton_damage": 0,
+          "lr_number": "45789"
+        },
+        {
+        	
+        	"material_code":"sa",
+          "material_invoice_number": "1120100203",
+          "delivery_number": "8010452936",
+          "no_of_shortage": 0,
+          "no_of_leakage": 0,
+          "no_of_excess": 0,
+          "no_of_damage": 0,
+          "no_of_carton_damage": 0,
+          "lr_number": "45789"
+        }
+      ]
+    }
+  ]
+}

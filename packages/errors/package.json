@@ -1,0 +1,15 @@
+{
+  "name": "pando-errors",
+  "version": "1.0.0",
+  "description": "User defined errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pando",
+    "errors"
+  ],
+  "author": "aiman@pando.in",
+  "license": "MIT"
+}

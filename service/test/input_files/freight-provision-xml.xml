@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+		<asx:values>
+			<TAB>
+			  <item>
+				      <BKTXT>0000602801</BKTXT>
+				      <SGTXT>SREE SAMYUKTHA LOGISTICS PVT LTD</SGTXT>
+				      <XBLNR>BRT-CH38-M-784</XBLNR>
+				      <DMBTR>100</DMBTR>
+				      <MATNR>000000000000090159</MATNR>
+				      <ZCONSIGNEE>0000006045</ZCONSIGNEE>
+				      <ZDMBTR>33.34</ZDMBTR>      
+			 </item>
+			 
+			 <item>
+				     <BKTXT>0000602801</BKTXT>        
+				     <SGTXT>SREE SAMYUKTHA LOGISTICS PVT LTD</SGTXT>        
+				     <XBLNR>BRT-CH38-M-784</XBLNR>        
+				     <DMBTR>100</DMBTR>        
+				     <MATNR>000000000000090168</MATNR>        
+				     <ZCONSIGNEE>0000006045</ZCONSIGNEE>        
+				     <ZDMBTR>33.33</ZDMBTR>      
+			</item>
+				 
+			<item>
+				    <BKTXT>0000602801</BKTXT>        
+				    <SGTXT>SREE SAMYUKTHA LOGISTICS PVT LTD</SGTXT>
+				    <XBLNR>BRT-CH38-M-784</XBLNR>        
+				    <DMBTR>100</DMBTR>        
+				    <MATNR>000000000000090168</MATNR>        
+				    <ZCONSIGNEE>0000006045</ZCONSIGNEE>        
+				    <ZDMBTR>33.33</ZDMBTR>
+			</item>
+		</TAB>  
+	</asx:values>
+</asx:abap>

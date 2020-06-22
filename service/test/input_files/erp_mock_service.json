@@ -1,0 +1,34 @@
+{
+  "ModifiedPicklist" : {
+    "ItemModifiedPicklist" : [
+      {
+          "depot_code": "r20200601045130",
+          "indent_id": "PL-r20200601045130-O-1",
+          "type": "SECONDARY",
+          "vehicle_number": "0",
+          "vehicle_type": "v120200601045130",
+          "indication": "CREATE",
+          "transporter_code": "tr20200601045130",
+          "created_date": "2020/06/0110:21",
+          "truck_in_date_and_time": "2020/06/0110:21",
+          "pickup_code": "rq120200601045130",
+          "delivery_number": "D120200601045130",
+          "line_item_no": "122121",
+          "sku": "mc120200601045130",
+          "division": "asdf",
+          "quantity": "1.00",
+          "quantity_unit": "S/0",
+          "N": "asdf",
+          "weight": "1000.00",
+          "weight_unit": "KG",
+          "volume": "965.00",
+          "volume_unit": "CFT",
+          "category": "general",
+          "lr_number": "45465464",
+          "ship_to": "gcr120200601045130",
+          "sold_to": "gcr120200601045130"
+
+      }
+    ]
+  }
+}

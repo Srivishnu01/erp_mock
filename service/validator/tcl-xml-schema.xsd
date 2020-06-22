@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.sap.com/abapxml" xmlns:asx="http://www.sap.com/abapxml">
+  <xs:element name="abap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="asx:values"/>
+      </xs:sequence>
+      <xs:attribute name="version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="values">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TAB" form="unqualified">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="unbounded" name="item" form="unqualified">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="undefined" form="unqualified"/>
+                    <xs:element name="ZINDENTNO" form="unqualified" type="xs:NCName"/>
+                    <xs:element name="ZTYPE" form="unqualified" type="xs:NCName"/>
+                    <xs:element name="BEROT" form="unqualified" type="xs:string"/>
+                    <xs:element name="LIFEX" form="unqualified" type="xs:string"/>
+                    <xs:element name="INCO2" form="unqualified" type="xs:NCName"/>
+                    <xs:element name="LIFNR" form="unqualified" type="xs:NCName"/>
+                    <xs:element name="RESWK" form="unqualified" type="xs:integer"/>
+                    <xs:element name="VBELN" form="unqualified" type="xs:integer"/>
+                    <xs:element name="POSNR" form="unqualified" type="xs:integer"/>
+                    <xs:element name="MATNR" form="unqualified" type="xs:integer"/>
+                    <xs:element name="LFIMG" form="unqualified" type="xs:decimal"/>
+                    <xs:element name="VRKME" form="unqualified" type="xs:NCName"/>
+                    <xs:element name="INCO2_L" form="unqualified">
+                      <xs:complexType/>
+                    </xs:element>
+                    <xs:element name="WERKS" form="unqualified" type="xs:NCName"/>
+                    <xs:element name="KUNAG" form="unqualified" type="xs:NCName"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

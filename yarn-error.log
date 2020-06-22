@@ -1,0 +1,43 @@
+Arguments: 
+  /home/jai/.nvm/versions/node/v10.18.0/bin/node /home/jai/.nvm/versions/node/v10.18.0/bin/yarn
+
+PATH: 
+  /home/jai/.nvm/versions/node/v10.18.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "pando",
+    "private": true,
+    "workspaces": [
+      "packages/**",
+      "service/**"
+    ],
+    "scripts": {
+      "bootstrap": "lerna bootstrap --use-workspaces"
+    },
+    "devDependencies": {
+      "lerna": "^3.20.2"
+    },
+    "dependencies": {
+      "express-validation": "^3.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
