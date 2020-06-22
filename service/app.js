@@ -39,6 +39,7 @@ app.use(bodyParser.json());
 
 // enable cors for the mentioned domain and headers
 app.use(corEnabler);
+
 app.use('/api/', apiRouter);
 app.use('/api/*', apiRouter);
 
