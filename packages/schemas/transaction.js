@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const  getTransactionType  = require('pando-constants').getTransactionType;
+const { getTransactionType } = require('pando-constants');
 const { Schema } = mongoose;
 const schemaOptions = {
     versionKey: false,
